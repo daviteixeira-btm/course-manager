@@ -1,27 +1,95 @@
-# CourseManager
+<h1 align="center">
+  Course Management with Angular 8
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/daviteixeira-btm/course-manager?style=flat-square">
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/daviteixeira-btm/course-manager?style=flat-square">
+  
+  <a href="https://github.com/daviteixeira-btm/course-manager/commits">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/daviteixeira-btm/course-manager?style=flat-square">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/daviteixeira-btm/course-manager?style=flat-square">
 
-## Development server
+  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/daviteixeira-btm/course-manager?style=social">
+	<img alt="GitHub Forks" src="https://img.shields.io/github/forks/daviteixeira-btm/course-manager?style=social"> 
+</p>
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="/src/assets/images/IntroducaoAngular8.png" min-width="400px" max-width="400px" width="100%" align="center" alt="Introdução Angular 8">
 
-## Code scaffolding
+## 👨🏻‍💻 Sobre o projeto
+<p>
+	Neste curso introdutório ao Angular 8, aprendi conceitos e técnicas para começar a desenvolver por meio de um aplicativo de gerenciamento de curso. 
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Tecnologias
 
-## Build
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [NodeJs](https://nodejs.org/en/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Instalação, execução e desenvolvimento
 
-## Running unit tests
+### Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [npm](https://www.npmjs.com/)
+- [angular](https://angular.io/)
 
-## Running end-to-end tests
+### Web
+```bash
+# Instale as dependências
+$ npm install
+$ npm init
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Execute o comando
+$ ng serve
 
-## Further help
+# Crie um servidor local
+$ Entre na pasta /src/assets/server e copie a pastar serve para sua área de trabalho
+$ Abra o terminar na pasta server e exevulte o comando node serve.js
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Abra em seu navegador
+$ http://localhost:4200/
+
+# Tudo pronto para iniciar a aplicação web
+
+```
+## 🤔 Como contribuir
+
+**Faça um fork deste repositório e siga os passos a baixo**
+
+```bash
+# Clone seu fork
+$ git clone seu-fork-url && cd NOME_DO_REPO
+
+# Crie uma branch com sua feature
+$ git checkout -b my-feature
+
+# Faça commit das suas alterações
+$ git commit -m 'feat: My new feature'
+
+# Envie o código para sua remote branch
+$ git push origin my-feature
+```
+Despois que sua pull request for merged, você pode deletar sua branch
+
+## 📝 License
+
+Esse projeto possui uma Licensa MIT License - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+<div align="center">
+
+Feito com ❤️
+
+</div>
